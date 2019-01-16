@@ -27,3 +27,12 @@ git learning
 ## 临时加塞紧急任务 git stash/git pop/git apply
 ## 指定不需要git管理的文件 .gitignore /结尾 表示只忽略文件夹下的文件
 ## 
+##
+## 本地仓库同步到GitHub git remote add origin xxx.git; git fetch; git merge --allow-unrelated-histories origin/master; git push;
+## 不同人修改不同文件
+## 不同人修改同文件不同区域
+## 不同人修改同文件统一区域
+## 同时变更了文件名和文件内容
+## 把同一个文件改成了不同的文件名
+## 禁止push -f
+## 禁止对集成分支做rebase
