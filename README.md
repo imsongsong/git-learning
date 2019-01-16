@@ -2,8 +2,8 @@
 git learning
 
 ## git config --list
-## git config global user.name 'ss'
-## git config global user.email 'ss@gmail.com'
+## git config --global user.name 'ss'
+## git config --global user.email 'ss@gmail.com'
 ## git init XXX-Project(new project)
 ## git init (existing project)
 
