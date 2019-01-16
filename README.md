@@ -7,13 +7,17 @@ git learning
 ## git init XXX-Project(new project)
 ## git init (existing project)
 
-
+## 工作区/暂存区/HEAD（头指针）/Branch
 ## git add .：将工作空间新增和被修改的文件添加的暂存区
 ## git add -u:将工作空间被修改和被删除的文件添加到暂存区(不包含没有纳入Git管理的新增文件)
+## 创建tag git tag XXX (YYY)
+## 删除tag git tag remove XXX
+## 创建分支 git checkout XXX (YYY)
+## 删除分支 git branch -D XXX
 
 
 ## 
-## 删除不需要的分支 git branch -D XXX
+## 
 ## 修改最新commit的message git commit --amend
 ## 修改旧commit的message git rebase -i XXX
 ## 把连续的多个commit合并成1个 git rebase -i XXX
